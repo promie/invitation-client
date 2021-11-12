@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="info-wrapper">
               <div className="info-container">
                 <h1 className="text-uppercase poppins-font">
-                  {heroContent.heroTitleName}.
+                  {heroContent.heroTitleName}
                   <span>{heroContent.heroDesignation}</span>
                 </h1>
                 <div className="open-sans-font bold">

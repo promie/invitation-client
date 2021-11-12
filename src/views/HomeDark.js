@@ -1,6 +1,6 @@
 import React from 'react'
 import { Tabs, TabPanel } from 'react-tabs'
-import Hero from '../../components/hero/Hero'
+import Hero from '../components/hero/Hero'
 
 const HomeDark = () => {
   return (
