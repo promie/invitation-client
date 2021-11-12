@@ -1,7 +1,8 @@
 import React from 'react'
+import PatrickMainPic from '../../assets/img/patrick-2.png'
+import PatrickMobilePic from '../../assets/img/patrick-mobile.png'
 
 const heroContent = {
-  heroImage: 'img/hero/patrick-2.png',
   heroMobileImage: 'patrick-mobile',
   heroTitleName: 'Patrick Yutasane',
   heroDesignation: 'IS TURNING 1',
@@ -25,15 +26,13 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
+            backgroundImage: `url(${PatrickMainPic})`,
           }}
         />
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start mt-lg-5 pt-lg-5">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.png`}
+              src={PatrickMobilePic}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
