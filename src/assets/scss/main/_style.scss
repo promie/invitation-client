@@ -59,8 +59,15 @@ body {
   background-position: center;
   height: 100%;
   width: 100%;
-  background-image: url('https://wallpapercave.com/wp/wp5826880.jpg')
+  background-image: url('https://cdn.wallpapersafari.com/2/93/Hdyv0T.jpg')
 }
+
+@media only screen and (min-width: 991px) {
+  body {
+    background-image: url('https://wallpaperaccess.com/full/191597.png')
+  }
+}
+
 
 .poppins-font {
   font-family: "Poppins", sans-serif;
