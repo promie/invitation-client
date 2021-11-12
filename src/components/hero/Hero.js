@@ -8,7 +8,7 @@ const heroContent = {
   heroDesignation: 'IS TURNING 1',
   heroDescriptions: `PARTY INFO:`,
   heroDate: 'SAT. DECEMBER 11TH AT 11AM',
-  heroLocation: 'STEEL PARK 531-565 ILLAWARRA ROAD, MARRICKVILLE',
+  heroLocation: 'LOCATION TO BE CONFIRMED',
   heroRsvp: 'PATTY: 0466 247 568 | PROMIE 0423 702 138',
   heroBtn: 'RSVP',
 }
@@ -17,7 +17,8 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    window.open('https://forms.gle/wvfY3zCRsNUbaFuw9')
+    alert('Still under constructions')
+    // window.open('https://forms.gle/wvfY3zCRsNUbaFuw9')
   }
 
   return (
@@ -39,26 +40,29 @@ const Hero = () => {
 
             <div className="info-wrapper">
               <div className="info-container">
-                <h1 className="text-uppercase poppins-font">
+                <h1 className="text-uppercase poppins-font mt-lg-5">
                   {heroContent.heroTitleName}
                   <span>{heroContent.heroDesignation}</span>
                 </h1>
-                <div className="open-sans-font bold">
-                  {heroContent.heroDescriptions}
+
+                <div className="inner-info-container">
+                  <div className="open-sans-font bold">
+                    {heroContent.heroDescriptions}
+                  </div>
+                  <div className="open-sans-font bold">
+                    {heroContent.heroDate}
+                  </div>
+                  <div className="open-sans-font bold">
+                    {heroContent.heroLocation}
+                  </div>
+                  <div className="open-sans-font mb-5 bold">
+                    {heroContent.heroRsvp}
+                  </div>
+                  <button className="button" onClick={handleSubmit}>
+                    <span className="button-text">{heroContent.heroBtn}</span>
+                    <span className="button-icon fa fa-arrow-right" />
+                  </button>
                 </div>
-                <div className="open-sans-font bold">
-                  {heroContent.heroDate}
-                </div>
-                <div className="open-sans-font bold">
-                  {heroContent.heroLocation}
-                </div>
-                <div className="open-sans-font mb-5 bold">
-                  {heroContent.heroRsvp}
-                </div>
-                <button className="button" onClick={handleSubmit}>
-                  <span className="button-text">{heroContent.heroBtn}</span>
-                  <span className="button-icon fa fa-arrow-right" />
-                </button>
               </div>
             </div>
           </div>
