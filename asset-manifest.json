@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/patrick/static/css/main.6bdfc770.chunk.css",
-    "main.js": "/patrick/static/js/main.2f987276.chunk.js",
-    "main.js.map": "/patrick/static/js/main.2f987276.chunk.js.map",
+    "main.js": "/patrick/static/js/main.e9592e5f.chunk.js",
+    "main.js.map": "/patrick/static/js/main.e9592e5f.chunk.js.map",
     "runtime-main.js": "/patrick/static/js/runtime-main.f4d38048.js",
     "runtime-main.js.map": "/patrick/static/js/runtime-main.f4d38048.js.map",
     "static/css/2.4e3e13d1.chunk.css": "/patrick/static/css/2.4e3e13d1.chunk.css",
@@ -14,13 +14,15 @@
     "static/css/2.4e3e13d1.chunk.css.map": "/patrick/static/css/2.4e3e13d1.chunk.css.map",
     "static/css/main.6bdfc770.chunk.css.map": "/patrick/static/css/main.6bdfc770.chunk.css.map",
     "static/js/2.9a799c5e.chunk.js.LICENSE.txt": "/patrick/static/js/2.9a799c5e.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/patrick/static/media/fontawesome-webfont.f691f37e.woff"
+    "static/media/main.scss": "/patrick/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/patrick-2.794c9596.png": "/patrick/static/media/patrick-2.794c9596.png",
+    "static/media/patrick-mobile.d26fe77b.png": "/patrick/static/media/patrick-mobile.d26fe77b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4d38048.js",
     "static/css/2.4e3e13d1.chunk.css",
     "static/js/2.9a799c5e.chunk.js",
     "static/css/main.6bdfc770.chunk.css",
-    "static/js/main.2f987276.chunk.js"
+    "static/js/main.e9592e5f.chunk.js"
   ]
 }
