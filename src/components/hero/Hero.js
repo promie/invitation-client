@@ -18,7 +18,7 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    window.open('https://forms.gle/wvfY3zCRsNUbaFuw9')
+    window.open('https://forms.gle/KScM41vkgJ9TQ8zv6')
   }
 
   return (
