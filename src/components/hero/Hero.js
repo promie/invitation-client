@@ -7,9 +7,10 @@ const heroContent = {
   heroTitleName: 'Patrick Yutasane',
   heroDesignation: 'IS TURNING 1',
   heroDescriptions: `PARTY INFO:`,
-  heroDate: 'SAT. DECEMBER 11TH AT 11AM',
-  heroLocation: 'LOCATION TO BE CONFIRMED',
+  heroDate: 'SAT. DECEMBER 11TH AT 10AM - 1PM',
+  heroLocation: '65 CAIRNS STREET, RIVERWOOD NSW 2210',
   heroRsvp: 'PATTY: 0466 247 568 | PROMIE 0423 702 138',
+  heroTheme: 'SUPERHERO THEMED PARTY',
   heroBtn: 'RSVP',
 }
 
@@ -17,8 +18,7 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    alert('Still under constructions')
-    // window.open('https://forms.gle/wvfY3zCRsNUbaFuw9')
+    window.open('https://forms.gle/wvfY3zCRsNUbaFuw9')
   }
 
   return (
@@ -55,8 +55,12 @@ const Hero = () => {
                   <div className="open-sans-font bold">
                     {heroContent.heroLocation}
                   </div>
-                  <div className="open-sans-font mb-5 bold">
+                  <div className="open-sans-font bold">
                     {heroContent.heroRsvp}
+                  </div>
+
+                  <div className="open-sans-font mb-5 mt-3 bold">
+                    {heroContent.heroTheme}
                   </div>
                   <button className="button" onClick={handleSubmit}>
                     <span className="button-text">{heroContent.heroBtn}</span>
